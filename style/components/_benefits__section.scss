@@ -1,0 +1,11 @@
+.benefits__section {
+  position: relative;
+  margin-bottom: 64px;
+
+  &::before {
+    position: absolute;
+    content: url("../../img/icon/Vector.svg");
+    bottom: 76px;
+    left: 351px;
+  }
+}

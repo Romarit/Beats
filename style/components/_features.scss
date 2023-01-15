@@ -1,0 +1,26 @@
+.features {
+  display: flex;
+}
+
+.features__item {
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  font-family: 'Play', sans-serif;
+}
+
+.feature__icon {
+  margin-right: 7px;
+}
+
+.feature__text {
+  font-size: 16px;
+  max-width: 89px;
+}

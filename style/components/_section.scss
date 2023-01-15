@@ -1,0 +1,15 @@
+.section {
+  height: 100vh;
+  max-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  text-align: center;
+}

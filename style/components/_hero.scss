@@ -1,0 +1,44 @@
+.hero {
+  background-color: #F5F5F5;
+  height: 100vh;
+  max-height: 650px;
+  color: #292929;
+  position: relative;
+  margin-bottom: 101px;
+
+  &::before {
+    position: absolute;
+    bottom: -27px;
+    right: 25%;
+    content: url(../../img/icon/Rectangle.svg);
+  }
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 24px 0 62px;
+  background: url("../../img/Ellipse.svg") left 95% top 69% / 52% auto no-repeat;
+}
+
+.hero__title-section {
+  width: 40%;
+}
+
+.hero__main-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.hero__title-desc {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 45px;
+  padding-right: 10%;
+}

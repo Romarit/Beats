@@ -1,0 +1,10 @@
+.interactive-avatar {
+  width: 74px;
+  height: 74px;
+  border: 6px solid transparent;
+
+  &--active {
+    border-color: #E01F3D;
+    border-radius: 50%;
+  }
+}
