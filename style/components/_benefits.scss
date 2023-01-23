@@ -1,6 +1,9 @@
 .benefits {
   display: flex;
-  margin-bottom: 175px;
+  
+  @include phones {
+    flex-direction: column;
+  }
 }
 
 .benefits__item {
@@ -8,12 +11,25 @@
   padding: 0 3%;
   position: relative;
 
+  @include phones {
+    display: flex;
+    padding: 0;
+  }
+
+  @include tablets {
+    padding: 0;
+  }
+
   &::before {
     content: url("../../img/icon/shape.svg");
     position: absolute;
-    top: 50px;
+    top: rem(50px);
     right: 0;
     transform: translateX(50%);
+
+    @include phones {
+      display: none;
+    }
   }
 
   &:first-child {
@@ -26,5 +42,11 @@
     &::before {
       display: none;
     }
+  }
+}
+
+.benefit__image {
+  @include phones {
+    margin-bottom: 0;
   }
 }

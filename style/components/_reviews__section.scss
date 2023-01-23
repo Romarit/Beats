@@ -1,45 +1,75 @@
 .reviews__section {
-  
+  max-height: rem(642px);
+
+  @include tablets {
+    max-height: rem(1000px);
+  }
+
+  @include phones {
+    max-height: rem(804px);
+  }
+
   &::before {
     position: absolute;
     content: url("../../img/icon/circle.svg");
     bottom: 24%;
-    left: 370px;
+    left: rem(370px);
+
+    @include tablets {
+      bottom: 22.7%;
+      left: rem(43px);
+    }
     }
 }
 
 .reviews__container {
-  margin-bottom: 140px;
+  margin-bottom: rem(140px);
+  max-height: 640px;
 }
 
 .reviews__display {
   background: #F8FAF9;
-  padding: 42px;
-  margin-bottom: 20px;
+  padding: rem(42px);
+  margin-bottom: rem(20px);
   overflow: hidden;
   position: relative;
 
   &::before {
     content: "";
     display: block;
-    width: 83px;
-    height: 83px;
+    width: rem(83px);
+    height: rem(83px);
     background: #fff;
     border-radius: 50%;
     position: absolute;
     left: 50%;
-    top: -60px;
+    top: rem(-60px);
     transform: translateX(-50%);
   }
 }
 
 .reviews__display-inner {
   display: flex;
+
+  @include tablets {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.reviews__switcher {
+  margin-bottom: 450px;
 }
 
 .reviews__avatar {
-  width: 253px;
-  height: 264px;
+  width: rem(253px);
+  height: rem(264px);
+
+  @include tablets {
+    width: rem(130px);
+    height: rem(130px);
+  }
 }
 
 .reviews__avatar-img {
@@ -50,27 +80,38 @@
 
 .reviews__content {
   flex: 1;
-  margin-left: 40px;
+  margin-left: rem(40px);
+
+  @include tablets {
+    margin-left: 0;
+  }
 }
 
 .reviews__title {
-  padding-top: 20px;
+  padding-top: rem(20px);
   font-weight: 700;
-  font-size: 24px;
-  margin-bottom: 27px;
+  font-size: rem(24px);
+  margin-bottom: rem(27px);
 }
 
 .reviews__text {
-  width: 500px;
+  width: rem(500px);
   font-weight: 400;
-  font-size: 16px;
+  font-size: rem(16px);
   color: #666666;
-  margin-bottom: 38px;
+  margin-bottom: rem(38px);
+
+  @include tablets {
+    width: rem(530px);
+  }
+  @include phones {
+    padding: 0 20%;
+  }
 }
 
 .reviews__author {
   font-weight: 700;
-  font-size: 18px;
+  font-size: rem(18px);
   color: #292929;
 }
 

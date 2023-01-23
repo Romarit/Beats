@@ -3,7 +3,7 @@
 }
 
 .features__item {
-  margin-right: 40px;
+  margin-right: rem(40px);
 
   &:last-child {
     margin-right: 0;
@@ -14,13 +14,36 @@
   display: flex;
   align-items: center;
   font-family: 'Play', sans-serif;
+
+  @include tablets {
+    display: none;
+  }
 }
 
 .feature__icon {
-  margin-right: 7px;
+  margin-right: rem(7px);
+}
+
+.listening-icon {
+  width: 39px;
+  height: 39px;
+}
+
+.charging-icon {
+  width: 39px;
+  height: 39px;
+}
+
+.plug-icon {
+  width: 39px;
+  height: 39px;
+}
+
+.listeting-icon {
+  display: block;
 }
 
 .feature__text {
-  font-size: 16px;
-  max-width: 89px;
+  font-size: rem(16px);
+  max-width: rem(89px);
 }

@@ -1,16 +1,29 @@
 .btn {
   font-family: 'Play', sans-serif;
   font-weight: 700;
-  font-size: 16px;
-  padding: 18px 41px;
+  font-size: rem(16px);
+  padding: rem(18px) rem(41px);
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: rem(100px);
   line-height: 1;
   border: none;
+
+  @include tablets {
+    padding: rem(21px) rem(41px);
+  }
+  @include phones {
+    font-size: 19px;
+    padding: rem(21px) rem(41px);
+    margin-bottom: rem(10px);
+  }
 
   &--theme--red {
     background: #E01F3D;
     color: #FFF;
+
+    @include phones {
+      font-size: rem(16px);
+    }
 
     &:hover {
       background: #CA1B36;;
@@ -23,5 +36,13 @@
     color: #FFF;
     font-weight: 400;
     text-transform: capitalize;
+
+    @include phones {
+      font-size: rem(16px);
+    }
+
+    @include tablets {
+      color: #E01F3D;
+    }
   }
 }

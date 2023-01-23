@@ -1,11 +1,29 @@
 .benefits__section {
   position: relative;
-  margin-bottom: 64px;
+  max-height: rem(642px);
+  margin-bottom: rem(64px);
+
+  @include tablets {
+    max-height: rem(1000px);
+  }
+  @include phones {
+    max-height: rem(706px);
+    margin-bottom: rem(150px);
+  }
 
   &::before {
     position: absolute;
     content: url("../../img/icon/Vector.svg");
-    bottom: 76px;
-    left: 351px;
+    bottom: rem(-14px);
+    left: rem(351px);
+
+    @include tablets {
+      bottom: rem(-112px);
+      left: rem(44px);
+    }
+    @include phones {
+      bottom: rem(-55px);
+      left: rem(44px);
+    }
   }
 }

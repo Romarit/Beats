@@ -1,11 +1,23 @@
 .order__section {
   background: #181818;
+  max-height: rem(642px);
+
+  @include tablets {
+    max-height: rem(1000px);
+  }
+  @include phones {
+    max-height: rem(800px);
+  }
 }
 
 .order__title {
   color: #fff;
   font-weight: 700;
-  font-size: 48px;
+  font-size: rem(48px);
   text-transform: uppercase;
   text-align: center;
+  
+  @include phones {
+    font-size: rem(32px);
+  }
 }

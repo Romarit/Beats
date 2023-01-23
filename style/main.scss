@@ -1,8 +1,14 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
-//z-indexes
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
 
+
+@import "media";
+
+//z-indexes
 $z-fixed-menu: 100;
 
 //Normalize
@@ -12,6 +18,7 @@ $z-fixed-menu: 100;
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,300;1,400&display=swap');
 @import "layout";
+
 
 
 //Components
@@ -30,3 +37,4 @@ $z-fixed-menu: 100;
 @import "components/_form";
 @import "components/_radio";
 @import "components/_fixed-menu";
+@import "components/_hamburger";
