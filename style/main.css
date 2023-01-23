@@ -109,7 +109,7 @@ img {
   position: absolute;
   bottom: -2rem;
   right: 25%;
-  content: url(../../img/icon/Rectangle.svg);
+  content: url(../img/icon/Rectangle.svg);
 }
 @media screen and (max-width: 768px) {
   .hero::before {
@@ -649,7 +649,7 @@ img {
 }
 .benefits__section::before {
   position: absolute;
-  content: url("../../img/icon/Vector.svg");
+  content: url("../img/icon/Vector.svg");
   bottom: -0.7777777778rem;
   left: 19.5rem;
 }
@@ -681,7 +681,7 @@ img {
 }
 .reviews__section::before {
   position: absolute;
-  content: url("../../img/icon/circle.svg");
+  content: url("../img/icon/circle.svg");
   bottom: 24%;
   left: 20.5555555556rem;
 }
