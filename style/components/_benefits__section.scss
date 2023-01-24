@@ -12,18 +12,23 @@
     margin-bottom: rem(150px);
   }
 
+.benefits__container {
+  padding-bottom: rem(468px);
+}
+
   &::before {
     position: absolute;
     content: url("../img/icon/Vector.svg");
-    bottom: rem(-14px);
+    bottom: 37%;
     left: rem(351px);
 
     @include tablets {
-      bottom: rem(-112px);
+      bottom: 35%;
       left: rem(44px);
     }
+
     @include phones {
-      bottom: rem(-55px);
+      bottom: 35%;
       left: rem(44px);
     }
   }

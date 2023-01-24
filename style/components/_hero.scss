@@ -13,23 +13,23 @@
 
   @include phones {
     min-height: rem(850px);
-    margin-bottom: rem(110px);
+    margin-bottom: rem(380px);
   }
   
 
   &::before {
     position: absolute;
-    bottom: rem(-36px);
+    bottom: 17%;
     right: 25%;
     content: url(../img/icon/Rectangle.svg);
 
     @include tablets {
-      bottom: rem(-228px);
+      bottom: 2%;
       right: 7%;
     }
 
     @include phones {
-      bottom: rem(-80px);
+      bottom: -4%;
       right: 7%;
     }
   }
@@ -40,8 +40,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: rem(24px) 0 rem(62px);
-  background: url("../img/Ellipse1.png") left 95% top 72% / 52% auto no-repeat;
+  padding: rem(24px) 0 rem(210px);
+  background: url("../img/Ellipse1.png") left 95% top 32% / 52% auto no-repeat;
 
   @include tablets {
     background: none;
@@ -100,7 +100,7 @@
 
   @include phones{
     padding: 0 8%;
-    font-size: rem(32px);
+    font-size: 32px;
   }
 
 }

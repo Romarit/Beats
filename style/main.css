@@ -102,24 +102,24 @@ img {
 @media screen and (max-width: 480px) {
   .hero {
     min-height: 47.2222222222rem;
-    margin-bottom: 6.1111111111rem;
+    margin-bottom: 21.1111111111rem;
   }
 }
 .hero::before {
   position: absolute;
-  bottom: -2rem;
+  bottom: 17%;
   right: 25%;
   content: url(../img/icon/Rectangle.svg);
 }
 @media screen and (max-width: 768px) {
   .hero::before {
-    bottom: -12.6666666667rem;
+    bottom: 2%;
     right: 7%;
   }
 }
 @media screen and (max-width: 480px) {
   .hero::before {
-    bottom: -4.4444444444rem;
+    bottom: -4%;
     right: 7%;
   }
 }
@@ -136,8 +136,8 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  padding: 1.3333333333rem 0 3.4444444444rem;
-  background: url("../img/Ellipse1.png") left 95% top 72%/52% auto no-repeat;
+  padding: 1.3333333333rem 0 11.6666666667rem;
+  background: url("../img/Ellipse1.png") left 95% top 32%/52% auto no-repeat;
 }
 @media screen and (max-width: 768px) {
   .hero__container {
@@ -222,7 +222,7 @@ img {
 @media screen and (max-width: 480px) {
   .hero__main-title {
     padding: 0 8%;
-    font-size: 1.7777777778rem;
+    font-size: 32px;
   }
 }
 
@@ -412,8 +412,8 @@ img {
 }
 @media screen and (max-width: 480px) {
   .btn {
-    font-size: 1.0555555556rem;
-    padding: 1.1666666667rem 2.2777777778rem;
+    font-size: 19px;
+    padding: 21px 41px;
     margin-bottom: 0.5555555556rem;
   }
 }
@@ -648,21 +648,24 @@ img {
     margin-bottom: 8.3333333333rem;
   }
 }
+.benefits__section .benefits__container {
+  padding-bottom: 26rem;
+}
 .benefits__section::before {
   position: absolute;
   content: url("../img/icon/Vector.svg");
-  bottom: -0.7777777778rem;
+  bottom: 37%;
   left: 19.5rem;
 }
 @media screen and (max-width: 768px) {
   .benefits__section::before {
-    bottom: -6.2222222222rem;
+    bottom: 35%;
     left: 2.4444444444rem;
   }
 }
 @media screen and (max-width: 480px) {
   .benefits__section::before {
-    bottom: -3.0555555556rem;
+    bottom: 35%;
     left: 2.4444444444rem;
   }
 }
@@ -695,7 +698,7 @@ img {
 
 .reviews__container {
   margin-bottom: 7.7777777778rem;
-  max-height: 35.5555555556rem;
+  padding-bottom: 20px;
 }
 
 .reviews__display {
