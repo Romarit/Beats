@@ -2,7 +2,7 @@
   text-align: center;
 
   @include phones {
-    margin-bottom: 35px;
+    margin-bottom: rem(35px);
   }
 }
 
@@ -39,7 +39,7 @@
 
   @include phones {
     text-align: left;
-    font-size: 24px;
+    font-size: rem(24px);
   }
 
 }

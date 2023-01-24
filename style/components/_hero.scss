@@ -1,18 +1,18 @@
 .hero {
   background-color: #F5F5F5;
   height: 100vh;
-  max-height: rem(642px);
+  min-height: rem(642px);
   color: #292929;
   position: relative;
   margin-bottom: rem(27px);
 
   @include tablets {
-    max-height: rem(1000px);
+    min-height: rem(1000px);
     margin-bottom: 308px;
   }
 
   @include phones {
-    max-height: rem(850px);
+    min-height: rem(850px);
     margin-bottom: rem(110px);
   }
   
@@ -100,7 +100,7 @@
 
   @include phones{
     padding: 0 8%;
-    font-size: 32px;
+    font-size: rem(32px);
   }
 
 }

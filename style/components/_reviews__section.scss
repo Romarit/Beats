@@ -1,12 +1,12 @@
 .reviews__section {
-  max-height: rem(642px);
+  min-height: rem(642px);
 
   @include tablets {
-    max-height: rem(1000px);
+    min-height: rem(1000px);
   }
 
   @include phones {
-    max-height: rem(804px);
+    min-height: rem(804px);
   }
 
   &::before {
@@ -24,7 +24,7 @@
 
 .reviews__container {
   margin-bottom: rem(140px);
-  max-height: 640px;
+  max-height: rem(640px);
 }
 
 .reviews__display {
@@ -59,7 +59,7 @@
 }
 
 .reviews__switcher {
-  margin-bottom: 450px;
+  margin-bottom: rem(450px);
 }
 
 .reviews__avatar {
