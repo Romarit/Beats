@@ -96,7 +96,7 @@ img {
 @media screen and (max-width: 768px) {
   .hero {
     min-height: 55.5555555556rem;
-    margin-bottom: 308px;
+    margin-bottom: 16.4444444444rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -261,7 +261,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .header {
-    margin-bottom: 8.6111111111rem;
+    margin-bottom: 5.1666666667rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -639,7 +639,7 @@ img {
 @media screen and (max-width: 768px) {
   .benefits__section {
     min-height: 55.5555555556rem;
-    padding-bottom: 11.9444444444rem;
+    padding-bottom: 20.9444444444rem;
   }
 }
 @media screen and (max-width: 480px) {

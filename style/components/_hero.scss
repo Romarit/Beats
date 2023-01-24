@@ -8,7 +8,7 @@
 
   @include tablets {
     min-height: rem(1000px);
-    margin-bottom: 308px;
+    margin-bottom: rem(296px);
   }
 
   @include phones {
