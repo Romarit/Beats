@@ -1,7 +1,9 @@
 .reviews__section {
   min-height: rem(642px);
+  position: relative;
 
   @include tablets {
+
     min-height: rem(1000px);
   }
 
@@ -12,25 +14,23 @@
   &::before {
     position: absolute;
     content: url("../img/icon/circle.svg");
-    bottom: 24%;
-    left: rem(370px);
+    bottom: -4%;
+    left: 13%;
 
     @include tablets {
-      bottom: 22.7%;
-      left: rem(43px);
+      bottom: -2%;
+      left: 17%;
     }
     }
 }
 
 .reviews__container {
-  margin-bottom: rem(140px);
-  padding-bottom: 20px;
+
 }
 
 .reviews__display {
   background: #F8FAF9;
   padding: rem(42px);
-  margin-bottom: rem(20px);
   overflow: hidden;
   position: relative;
 
@@ -59,7 +59,7 @@
 }
 
 .reviews__switcher {
-  margin-bottom: rem(450px);
+
 }
 
 .reviews__avatar {
@@ -95,7 +95,7 @@
 }
 
 .reviews__text {
-  width: rem(500px);
+  max-width: rem(500px);
   font-weight: 400;
   font-size: rem(16px);
   color: #666666;
