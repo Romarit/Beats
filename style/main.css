@@ -112,7 +112,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .hero::before {
-    bottom: -9%;
+    bottom: -3%;
     right: 8%;
   }
 }
@@ -607,7 +607,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .benefits__section::before {
-    bottom: -4%;
+    bottom: -11%;
     left: 6%;
   }
 }
@@ -619,19 +619,21 @@ img {
 }
 
 .slider {
+  height: 100vh;
   min-height: 35.6666666667rem;
   background: #F8FAF9;
   position: relative;
+  padding: 5.5555555556rem;
 }
 .slider::before {
   position: absolute;
   content: url("../img/icon/square.svg");
-  bottom: 6%;
+  bottom: -4%;
   right: 12%;
 }
 @media screen and (max-width: 768px) {
   .slider::before {
-    bottom: 20%;
+    bottom: -2%;
     right: 7%;
   }
 }
@@ -644,11 +646,13 @@ img {
 @media screen and (max-width: 768px) {
   .slider {
     min-height: 55.5555555556rem;
+    padding: 8.3333333333rem 0;
   }
 }
 @media screen and (max-width: 480px) {
   .slider {
     min-height: 44.6666666667rem;
+    padding: 50px;
   }
 }
 .slider__container {
@@ -684,7 +688,7 @@ img {
   .slider__arroy--left {
     position: absolute;
     left: 19%;
-    top: 27%;
+    top: 22%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -700,7 +704,7 @@ img {
   .slider__arroy--right {
     position: absolute;
     right: 17%;
-    top: 27%;
+    top: 22%;
   }
 }
 @media screen and (max-width: 480px) {

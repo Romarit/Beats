@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2952879b-e051-44d3-ab55-6c466458cc3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_benefits__section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_benefits__section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +55,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/test.js" working-dir="$PROJECT_DIR$/scripts">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674887627149</updated>
       <workItem from="1674887630270" duration="236000" />
-      <workItem from="1674888167675" duration="46949000" />
+      <workItem from="1674888167675" duration="53816000" />
     </task>
     <servers />
   </component>

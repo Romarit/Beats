@@ -1,16 +1,18 @@
 .slider {
+  height: 100vh;
   min-height: rem(642px);
   background: #F8FAF9;
   position: relative;
+  padding: rem(100px);
 
   &::before {
     position: absolute;
     content: url("../img/icon/square.svg");
-    bottom: 6%;
+    bottom: -4%;
     right: 12%;
 
     @include tablets {
-      bottom: 20%;
+      bottom: -2%;
       right: 7%;
     }
 
@@ -22,10 +24,12 @@
 
   @include tablets {
     min-height: rem(1000px);
+    padding: rem(150px) 0;
   }
 
   @include phones {
     min-height: rem(804px);
+    padding: 50px;
   }
 
   &__container {
@@ -54,7 +58,7 @@
       @include tablets {
         position: absolute;
         left: 19%;
-        top: 27%;
+        top: 22%;
       }
 
       @include phones {
@@ -69,7 +73,7 @@
       @include tablets {
         position: absolute;
         right: 17%;
-        top: 27%;
+        top: 22%;
       }
 
       @include phones {
