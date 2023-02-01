@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2952879b-e051-44d3-ab55-6c466458cc3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_benefits__section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_benefits__section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
     </list>
@@ -39,22 +36,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Роман/Desktop/Beats",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/test.js" working-dir="$PROJECT_DIR$/scripts">
       <method v="2" />
@@ -75,6 +61,10 @@
       <updated>1674887627149</updated>
       <workItem from="1674887630270" duration="236000" />
       <workItem from="1674888167675" duration="53816000" />
+      <workItem from="1675208465847" duration="182000" />
+      <workItem from="1675209320789" duration="55000" />
+      <workItem from="1675209403862" duration="210000" />
+      <workItem from="1675209631498" duration="21000" />
     </task>
     <servers />
   </component>

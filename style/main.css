@@ -683,6 +683,7 @@ img {
 }
 .slider__arroy--left {
   left: -2%;
+  top: 44%;
 }
 @media screen and (max-width: 768px) {
   .slider__arroy--left {
@@ -699,6 +700,7 @@ img {
 }
 .slider__arroy--right {
   right: -2%;
+  top: 44%;
 }
 @media screen and (max-width: 768px) {
   .slider__arroy--right {
@@ -727,6 +729,7 @@ img {
   display: -ms-flexbox;
   display: flex;
 }
+
 .slide {
   display: -webkit-box;
   display: -ms-flexbox;
