@@ -1,0 +1,57 @@
+@include tablets {
+
+  .teams__section {
+    min-height: rem(1000px);
+  }
+
+  .teams__container {
+
+  }
+
+  .team {
+    color: #000;
+  }
+
+  .team__list {
+    display: none;
+  }
+
+  .team__title {
+    margin-bottom: rem(33px);
+  }
+
+  .team__list-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team__item {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+
+  }
+
+  .team__content {
+    position: relative;
+    height: 0;
+    top: 0;
+    margin-bottom: 20px;
+  }
+
+
+
+  .team__content-title {
+    margin-bottom: rem(10px);
+    font-weight: bold;
+    font-size: rem(18px);
+  }
+
+  .team__content-text {
+    margin-bottom: rem(15px);
+
+  }
+
+
+}

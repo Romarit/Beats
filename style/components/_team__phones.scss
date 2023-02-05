@@ -1,0 +1,31 @@
+@include phones {
+
+  .teams__section {
+    min-height: rem(756px);
+    height: 100vh;
+  }
+
+  .teams__container {
+    padding: 0;
+  }
+
+  .team__title  {
+    margin-bottom: rem(36px);
+  }
+
+  .team__item {
+    justify-content: center;
+    width: 80%;
+  }
+
+  .team__avatar {
+    width: 50vw;
+    margin: 0 auto;
+    margin-bottom: rem(11px);
+  }
+  .team__avatar-img {
+    margin: 0 auto;
+    width: 138px;
+    height: 180px;
+  }
+}

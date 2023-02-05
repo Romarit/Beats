@@ -3,8 +3,13 @@
   height: rem(74px);
   border: rem(6px) solid transparent;
 
-  &--active {
+  &:hover {
     border-color: #E01F3D;
     border-radius: 50%;
   }
+}
+
+.active {
+  border-color: #E01F3D;
+  border-radius: 50%;
 }

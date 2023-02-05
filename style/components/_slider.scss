@@ -23,13 +23,13 @@
   }
 
   @include tablets {
-    min-height: rem(1000px);
-    padding: rem(150px) 0;
+    min-height: rem(816px);
+    padding: rem(100px) 0;
   }
 
   @include phones {
     min-height: rem(804px);
-    padding: 50px;
+    padding: rem(50px);
   }
 
   &__container {
@@ -37,7 +37,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background: url("../img/Beat.png")left 3% top 72% / 49% auto no-repeat;
+    //background: url("../img/Beat.png")left 3% top 72% / 49% auto no-repeat;
 
     @include tablets {
       background: none;
@@ -100,9 +100,33 @@
   
 }
 
+.img--beat {
+  width: 100%;
+
+
+  @include tablets {
+    position: relative;
+    left: 30%;
+    width: rem(330px);
+    height: rem(330px);
+  }
+
+  @include phones {
+    position: relative;
+    left: 14%;
+    width: rem(306px);
+    height: rem(306px);
+  }
+}
+
 .slide {
   display: flex;
   justify-content: space-between;
+
+  @include tablets {
+    flex-direction: column;
+  }
+
 
   &__img {
     background: #fff;
@@ -117,6 +141,7 @@
 
     &-wrap {
       margin-right: 5%;
+
     }
   }
 
@@ -132,13 +157,13 @@
       align-items: center;
       text-align: center;
 
-      &::before {
-        content: "";
-        width: rem(330px);
-        height: rem(330px);
-        background: url("../img/Beat.png") center center / contain no-repeat;
-        margin-bottom: rem(50px);
-      }
+      //&::before {
+      //  content: "";
+      //  width: rem(330px);
+      //  height: rem(330px);
+      //  //background: url("../img/Beat.png") center center / contain no-repeat;
+      //  margin-bottom: rem(50px);
+      //}
     }
 
     @include tablets {
@@ -280,4 +305,10 @@
   .param__number {
     margin-left: auto;
   }
+}
+
+.bx-wrapper {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
