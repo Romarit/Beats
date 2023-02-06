@@ -1075,6 +1075,18 @@ img {
 @media screen and (max-width: 768px) {
   .teams__section {
     min-height: 55.5555555556rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .teams__container {
+    padding: 13.8888888889rem 0;
   }
   .team {
     color: #000;
@@ -1125,9 +1137,18 @@ img {
   .teams__section {
     min-height: 42rem;
     height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .teams__container {
-    padding: 0;
+    padding: 5.5555555556rem 0;
   }
   .team__title {
     margin-bottom: 2rem;

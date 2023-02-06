@@ -3,10 +3,13 @@
   .teams__section {
     min-height: rem(756px);
     height: 100vh;
-  }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
 
   .teams__container {
-    padding: 0;
+    padding: rem(100px) 0;
   }
 
   .team__title  {
