@@ -4,6 +4,7 @@
 
 html {
   font-size: $baseFontSize;
+  
 
   @include tablets {
     font-size: $baseFontSize - 1px;
@@ -24,6 +25,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   color: #666;
+
 }
 
 .wrapper {

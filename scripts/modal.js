@@ -64,3 +64,4 @@ $('.app-submit-btn').click(e => {
 
     $.fancybox.close();
 })
+
