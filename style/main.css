@@ -898,6 +898,8 @@ img {
 @media screen and (max-width: 480px) {
   .slide__bottom {
     margin-right: 0;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 }
 .slide__price {
@@ -986,6 +988,12 @@ img {
 .bx-wrapper img {
   max-width: 100%;
   display: inline-block;
+}
+
+@media screen and (max-width: 480px) {
+  .btn__slider {
+    padding: 20px 40px;
+  }
 }
 
 .teams__section {
@@ -1740,8 +1748,8 @@ img {
 }
 @media screen and (max-width: 480px) {
   .btn {
-    font-size: 19px;
-    padding: 21px 41px;
+    font-size: 0.8888888889rem;
+    padding: 1.1111111111rem 1.8888888889rem;
     margin-bottom: 0.5555555556rem;
   }
 }

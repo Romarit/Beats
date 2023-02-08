@@ -12,8 +12,8 @@
     padding: rem(21px) rem(41px);
   }
   @include phones {
-    font-size: 19px;
-    padding: 21px 41px;
+    font-size: rem(16px);
+    padding: rem(20px) rem(34px);
     margin-bottom: rem(10px);
   }
 
