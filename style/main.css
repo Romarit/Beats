@@ -1114,7 +1114,7 @@ img {
             align-items: center;
   }
   .teams__container {
-    padding: 13.8888888889rem 0;
+    padding: 16.6666666667rem 0;
   }
   .team {
     color: #000;
@@ -1176,15 +1176,18 @@ img {
             align-items: center;
   }
   .teams__container {
-    padding: 5.5555555556rem 0;
+    padding: 8.3333333333rem 0;
   }
   .team__title {
-    margin-bottom: 2rem;
+    margin-bottom: 36px;
   }
   .team__item {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 80%;
   }
   .team__avatar {
