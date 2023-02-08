@@ -693,7 +693,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .slider__arroy--left {
-    left: 0;
+    left: -13%;
     top: 18%;
   }
 }
@@ -710,7 +710,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .slider__arroy--right {
-    right: -3%;
+    right: -13%;
     top: 18%;
   }
 }
