@@ -113,7 +113,7 @@
 
   @include phones {
     position: relative;
-    left: 14%;
+    left: 4%;
     width: rem(306px);
     height: rem(306px);
   }
@@ -141,6 +141,10 @@
 
     &-wrap {
       margin-right: 5%;
+
+      @include phones {
+        text-align: center;
+      }
 
     }
   }
@@ -237,6 +241,12 @@
     @include tablets {
       margin-right: 0;
     }
+
+    @include phones {
+      margin-right: 0;
+      //justify-content: space-around;
+
+    }
   }
 
   &__price {
@@ -248,6 +258,9 @@
       margin-right: rem(28px);
     }
 
+    @include phones {
+      font-size: rem(32px);
+    }
   }
 }
 
@@ -311,4 +324,9 @@
   border: 0;
   background: transparent;
   box-shadow: none;
+}
+
+.bx-wrapper img {
+    max-width: 100%;
+    display: inline-block;
 }

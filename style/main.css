@@ -743,7 +743,7 @@ img {
 @media screen and (max-width: 480px) {
   .img--beat {
     position: relative;
-    left: 14%;
+    left: 4%;
     width: 17rem;
     height: 17rem;
   }
@@ -779,6 +779,11 @@ img {
 }
 .slide__img-wrap {
   margin-right: 5%;
+}
+@media screen and (max-width: 480px) {
+  .slide__img-wrap {
+    text-align: center;
+  }
 }
 .slide__content {
   width: 43%;
@@ -890,6 +895,11 @@ img {
     margin-right: 0;
   }
 }
+@media screen and (max-width: 480px) {
+  .slide__bottom {
+    margin-right: 0;
+  }
+}
 .slide__price {
   font-size: 2rem;
   color: #151515;
@@ -898,6 +908,11 @@ img {
   .slide__price {
     font-size: 2.2222222222rem;
     margin-right: 1.5555555556rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .slide__price {
+    font-size: 1.7777777778rem;
   }
 }
 
@@ -966,6 +981,11 @@ img {
   background: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.bx-wrapper img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 .teams__section {

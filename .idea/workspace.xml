@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2952879b-e051-44d3-ab55-6c466458cc3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_team__phones.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_team__phones.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_team__tablets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_team__tablets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <workItem from="1675299696660" duration="259000" />
       <workItem from="1675300143961" duration="1593000" />
       <workItem from="1675301865256" duration="63267000" />
-      <workItem from="1675676013243" duration="586000" />
+      <workItem from="1675676013243" duration="2625000" />
     </task>
     <servers />
   </component>
