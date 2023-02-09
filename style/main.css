@@ -1359,6 +1359,192 @@ img {
           justify-content: center;
 }
 
+.player-section {
+  background: #F8FAF9;
+}
+
+.player-section__container {
+  max-width: 36.7777777778rem;
+  height: 21.7222222222rem;
+  position: relative;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .player-section__container {
+    width: 29.6666666667rem;
+    height: 21.7222222222rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .player-section__container {
+    width: 21.8888888889rem;
+    height: 12.9444444444rem;
+  }
+}
+
+.player {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.player .player.hidden {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.player__splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url("../img/black-man.jpg") center center/cover no-repeat;
+  cursor: pointer;
+}
+.player__splash:before {
+  content: url("../img/icon/play.png");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.player__wrapper {
+  display: contents;
+}
+
+.player__wrapper.active .player__splash {
+  display: none;
+}
+
+.player__elem {
+  width: 100%;
+  height: 100%;
+}
+
+.player__controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1.9444444444rem;
+  background: #404040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 3%;
+}
+
+.player__start {
+  width: 0;
+  height: 0;
+  border: 0.5555555556rem solid transparent;
+  border-left-color: #FFFFFF;
+  padding: 0;
+  border-right-width: 0;
+  background: transparent;
+  outline: none;
+  position: relative;
+}
+
+.player.paused .player__start {
+  width: 0.6666666667rem;
+  height: 1.0555555556rem;
+  border: none;
+}
+.player.paused .player__start:after, .player.paused .player__start:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0.2222222222rem;
+  background: #FFFFFF;
+}
+.player.paused .player__start:after {
+  right: 0;
+}
+.player.paused .player__start:before {
+  left: 0;
+}
+.player.paused .player__splash {
+  visibility: hidden;
+}
+
+.player__playback {
+  height: 0.7777777778rem;
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 1.6666666667rem 0 1.6666666667rem;
+}
+.player__playback:before {
+  content: "";
+  height: 0.1666666667rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  background: #333;
+  display: block;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.player__playback-button, .player__volume-button {
+  background: #E01F3D;
+  border-radius: 2.4444444444rem;
+  border: none;
+  width: 0.5555555556rem;
+  height: 0.5555555556rem;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 0;
+}
+
+.player__volume-progress {
+  height: 0.7777777778rem;
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.player__volume-progress:before {
+  content: "";
+  height: 0.1666666667rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  background: #E01F3D;
+  display: block;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.player__volume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 3.2222222222rem;
+}
+
 .interactive-avatar {
   width: 4.1111111111rem;
   height: 4.1111111111rem;
@@ -1561,6 +1747,16 @@ img {
   margin-right: 0.5555555556rem;
 }
 
+.map-section {
+  height: 100vh;
+  min-height: 35.6666666667rem;
+}
+
+#map {
+  height: 100vh;
+  min-height: 35.6666666667rem;
+}
+
 .fixed-menu {
   position: fixed;
   display: block;
@@ -1738,6 +1934,10 @@ img {
     margin-right: 0;
     margin-bottom: 0;
   }
+}
+
+.locked {
+  overflow: hidden;
 }
 
 .btn {
