@@ -77,14 +77,7 @@ const onPlayerReady = () => {
 }
 
 const onPlayerStateChange = event => {
-    /*
-      -1 (воспроизведение видео не начато)
-      0 (воспроизведение видео завершено)
-      1 (воспроизведение)
-      2 (пауза)
-      3 (буферизация)
-      5 (видео подают реплики).
-    */
+
     switch (event.data) {
         case 1:
             playerContainer.addClass("active");
@@ -102,7 +95,7 @@ function onYouTubeIframeAPIReady() {
     player = new YT.Player('yt-player', {
         height: "391",
         width: "662",
-        videoId: "tFYtoGQDW_g",
+        videoId: "wE3BHISuJLc",
         events: {
             "onReady": onPlayerReady,
             "onStateChange": onPlayerStateChange
