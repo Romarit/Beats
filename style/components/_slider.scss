@@ -1,9 +1,9 @@
 .slider {
   height: 100vh;
-  min-height: rem(642px);
+  min-height: rem(600px);
   background: #F8FAF9;
   position: relative;
-  padding: rem(100px);
+  padding: rem(50px);
 
   &::before {
     position: absolute;
@@ -24,7 +24,7 @@
 
   @include tablets {
     min-height: rem(816px);
-    padding: rem(100px) 0;
+    padding-top: rem(200px);
   }
 
   @include phones {

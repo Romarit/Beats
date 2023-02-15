@@ -31,6 +31,11 @@
   font-family: 'Alegreya Sans', sans-serif;
   margin-right: rem(27px);
 
+  &:hover {
+    color: #E01F3D;
+    transition: 0.5s;
+  }
+
   &:last-child {
     margin-right: 0;
   }

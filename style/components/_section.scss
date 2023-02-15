@@ -1,6 +1,6 @@
 .section {
   height: 100vh;
-  min-height: rem(650px);
+  min-height: rem(600px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,6 +10,6 @@
   font-weight: 700;
   font-size: rem(48px);
   text-transform: uppercase;
-  margin-bottom: rem(60px);
+  margin-bottom: rem(40px);
   text-align: center;
 }

@@ -1,10 +1,10 @@
 .reviews__section {
-  min-height: rem(642px);
+  min-height: 600px;
   position: relative;
 
   @include tablets {
 
-    min-height: rem(1000px);
+    min-height: rem(900px);
   }
 
   @include phones {
@@ -25,7 +25,7 @@
 }
 
 .reviews__container {
-
+  min-height: rem(602px);
 }
 
 .reviews__display {

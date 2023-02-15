@@ -1,15 +1,12 @@
 .benefits__section {
   position: relative;
-  min-height: rem(642px);
-  margin-bottom: rem(59px);
+  min-height: rem(600px);
 
   @include tablets {
-    min-height: rem(1000px);
-    margin-bottom: 100px;
+    min-height: rem(900px);
   }
   @include phones {
     min-height: rem(706px);
-    margin-bottom: rem(150px);
   }
 
 

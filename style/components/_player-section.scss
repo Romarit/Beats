@@ -1,5 +1,7 @@
 .player-section {
   background: #F8FAF9;
+  height: 100vh;
+  min-height: rem(600px);
 }
 
 .player-section__container {
@@ -101,7 +103,7 @@
       top: 0;
       bottom: 0;
       width: rem(4px);
-      background: #FFFFFF;
+      background: #E01F3D;
     }
 
     &:after {
@@ -131,7 +133,7 @@
     top: 50%;
     left: 0;
     right: 0;
-    background: #333;
+    background: #333333;
     display: block;
     transform: translateY(-50%);
   }
@@ -148,6 +150,10 @@
   top: 50%;
   transform: translate(-50%, -50%);
   left: 0;
+}
+
+.player__volume-img {
+  margin-right: rem(30px);
 }
 
 .player__volume-progress {
@@ -171,5 +177,6 @@
 .player__volume {
   display: flex;
   align-items: center;
-  width: rem(58px)
+  width: rem(58px);
+
 }
