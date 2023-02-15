@@ -1,5 +1,6 @@
 .benefits__section {
   position: relative;
+  height: 100%;
   min-height: rem(600px);
 
   @include tablets {

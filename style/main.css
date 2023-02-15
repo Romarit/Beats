@@ -96,7 +96,7 @@ img {
 
 .hero {
   background-color: #F5F5F5;
-  height: 100vh;
+  height: 100%;
   min-height: 33.3333333333rem;
   color: #292929;
   position: relative;
@@ -411,7 +411,7 @@ img {
 }
 
 .section {
-  height: 100vh;
+  height: 100%;
   min-height: 33.3333333333rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -596,6 +596,7 @@ img {
 
 .benefits__section {
   position: relative;
+  height: 100%;
   min-height: 33.3333333333rem;
 }
 @media screen and (max-width: 768px) {
@@ -628,7 +629,7 @@ img {
 }
 
 .slider {
-  height: 100vh;
+  height: 100%;
   min-height: 33.3333333333rem;
   background: #F8FAF9;
   position: relative;
@@ -1006,7 +1007,7 @@ img {
 }
 
 .teams__section {
-  height: 100vh;
+  height: 100%;
   min-height: 33.3333333333rem;
   padding-bottom: 6.6666666667rem;
 }
@@ -1221,6 +1222,7 @@ img {
       -ms-flex-pack: end;
           justify-content: flex-end;
   min-height: 33.3333333333rem;
+  height: 100%;
 }
 @media screen and (max-width: 768px) {
   .products__section {
@@ -1347,6 +1349,7 @@ img {
 
 .reviews__section {
   min-height: 600px;
+  height: 100%;
   position: relative;
 }
 @media screen and (max-width: 768px) {
@@ -1509,7 +1512,7 @@ img {
 
 .player-section {
   background: #F8FAF9;
-  height: 100vh;
+  height: 100%;
   min-height: 33.3333333333rem;
 }
 
@@ -1717,6 +1720,7 @@ img {
 .order__section {
   background: #181818;
   min-height: 33.3333333333rem;
+  height: 100%;
 }
 @media screen and (max-width: 768px) {
   .order__section {
@@ -1902,7 +1906,7 @@ img {
 }
 
 .map-section {
-  height: 100vh;
+  height: 100%;
   min-height: 16.6666666667rem;
 }
 

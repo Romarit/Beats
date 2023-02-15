@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2952879b-e051-44d3-ab55-6c466458cc3b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/components/_benefits__section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_benefits__section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/components/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/components/_map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_map.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/components/_order__section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_order__section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/components/_player-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_player-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_products__section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_products__section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/components/_reviews__section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_reviews__section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/components/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_team__tablets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_team__tablets.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/components/_teams__section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_teams__section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +79,7 @@
       <workItem from="1675299696660" duration="259000" />
       <workItem from="1675300143961" duration="1593000" />
       <workItem from="1675301865256" duration="63267000" />
-      <workItem from="1675676013243" duration="60337000" />
+      <workItem from="1675676013243" duration="61097000" />
     </task>
     <servers />
   </component>

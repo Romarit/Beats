@@ -4,6 +4,7 @@
   display: flex;
   justify-content: flex-end;
   min-height: rem(600px);
+  height: 100%;
   @include tablets {
     background: url("../img/products-bg5.png") center right / cover no-repeat;
     min-height: rem(900px);
