@@ -1,107 +1,150 @@
 const sections = $("section");
 const display = $(".maincontent");
 const sideMenu = $(".fixed-menu");
-const menuItems = sideMenu.find(".fixed-menu-item");
+const menuItems = sideMenu.find("fixed-menu__item");
+
+// const mobileDetect = new MobileDetect(window.navigator.userAgent);
+// const isMobile = mobileDetect.mobile();
 
 let inScroll = false;
 
 sections.first().addClass("active");
 
-const countSectionPosition = sectionEq => {
+const countSectionPosition = (sectionEq) => {
+
     const position = sectionEq * -100;
 
     if (isNaN(position)) {
-        console.error("Передано неверное значение в countSectionPosition");
+        console.error("передано не верное значение в countSectionPosition");
         return 0;
     }
     return position;
-};
-
-const changeMenuSection = sectionEq => {
-    const currentSection = sections.eq(sectionEq);
 }
 
-const resetActiveClassForItem = (items, itemsEq, activeClass) => {
-    items.eq(itemsEq).addClass(activeClass).siblings().removeClass(activeClass);
+const resetActiveClassForItem = (items, itemEq, activeClass) => {
+    items.eq(itemEq).addClass(activeClass).siblings().removeClass(activeClass);
 }
 
-const performTransition = sectionEq => {
-    if (inScroll === false) {
-        inScroll = true;
-        const position = countSectionPosition(sectionEq);
+const performTransition = (sectionEq) => {
 
-        changeMenuSection(sectionEq);
+    if (inScroll || document.body.classList.contains('locked')) return;
 
-        display.css({
-            transform: `translateY(${position}%)`
-        });
-
-        resetActiveClassForItem(sections, sectionEq, "active");
-        // sections.eq(sectionEq).addClass("active").siblings().removeClass("active");
+    const transitionOver = 1000;
+    const mouseInertiaOver = 300;
+    inScroll = true;
+    const position = countSectionPosition(sectionEq);
 
 
 
-        setTimeout(() => {
-            inScroll = false;
+    display.css({
+        transform: `translateY(${position}%)`,
+    });
 
-            resetActiveClassForItem(menuItems, sectionEq, ".fixed-menu__item--active");
+    resetActiveClassForItem(sections, sectionEq, "active");
+    sections.eq(sectionEq).addClass("active").siblings().removeClass("active");
 
-            sideMenu.find(".fixed-menu__item").eq(sectionEq).addClass("fixed-menu__item--active").siblings().removeClass("fixed-menu__item--active");
-        }, 1300);
-    }
+    setTimeout(() => {
+        inScroll = false;
+
+        resetActiveClassForItem(menuItems, sectionEq, "fixed-menu__item--active");
+
+
+        sideMenu
+            .find(".fixed-menu__item")
+            .eq(sectionEq)
+            .addClass("fixed-menu__item--active")
+            .siblings()
+            .removeClass("fixed-menu__item--active");
+    }, transitionOver + mouseInertiaOver);
+
+
 };
 
-const scrollViewport = direction => {
+const viewportScroller = () => {
     const activeSection = sections.filter(".active");
     const nextSection = activeSection.next();
     const prevSection = activeSection.prev();
 
-    if (direction === "next" && nextSection.length) {
-        performTransition(nextSection.index())
+    return {
+        next() {
+            if(nextSection.length) {
+                performTransition(nextSection.index())
+            }
+        },
+        prev() {
+            if(prevSection.length) {
+                performTransition(prevSection.index())
+            }
+        },
     }
-    if (direction === "prev" && prevSection.length) {
-        performTransition(prevSection.index())
-    }
-}
 
-$(window).on("wheel", event => {
-    const deltaY = event.originalEvent.deltaY;
+
+
+
+};
+
+$(window).on("wheel", e=> {
+    const deltaY = e.originalEvent.deltaY;
+    const scroller = viewportScroller();
 
     if (deltaY > 0) {
-    // next
-        scrollViewport("next");
+        scroller.next();
+// scrollViewport("next");
     }
-
     if (deltaY < 0) {
-    // prev
-        scrollViewport("prev")   ;
+        scroller.prev();
+        // scrollViewport("prev");
     }
-})
+});
 
-$(window).on("keydown", event =>{
+$(window).on("keydown", (e) => {
 
-    const tagName = event.target.tagName.toLowerCase();
+    const tagName = e.target.tagName.toLowerCase();
+    const userTypingInInputs = tagName === "input" || tagName === "textarea" ;
+    const scroller = viewportScroller();
 
-    if (tagName !== "input" && tagName !== "textarea") {
-        switch (event.keyCode) {
-            case 38: //prev
-                scrollViewport("prev");
-                break;
+    if(userTypingInInputs) return;
 
-            case 40: //next
-                scrollViewport("next");
-                break;
-        }
+    switch (e.keyCode) {
+        case 38:
+            scroller.prev();
+            break;
+
+        case 40:
+            scroller.next();
+            break;
+
     }
 
 });
 
-$("[data-scroll-to]").click(event => {
-    event.preventDefault();
+$(".wrapper").on("touchmove", e => e.preventDefault());
 
-    const $this = $(event.currentTarget);
+$("[data-scroll-to]").click(e=> {
+    e.preventDefault();
+
+    const $this = $(e.currentTarget);
     const target = $this.attr("data-scroll-to");
     const reqSection = $(`[data-section-id=${target}]`);
 
     performTransition(reqSection.index());
-})
+});
+
+if (isMobile) {
+//https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
+    $("body").swipe( {
+        swipe: function (event, direction,) {
+            const scroller = viewportScroller();
+            let scrollDirection = "";
+
+            if (direction === "up") scrollDirection = "next";
+            if (direction === "down") scrollDirection = "prev";
+
+
+            if (scrollDirection) {
+                scroller[scrollDirection]();
+            }
+
+        }
+    });
+}
