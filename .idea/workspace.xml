@@ -6,12 +6,94 @@
   <component name="ChangeListManager">
     <list default="true" id="2952879b-e051-44d3-ab55-6c466458cc3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/ops.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ops.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_interactive-avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_interactive-avatar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Alla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Beat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Boris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Ellipse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Ellipse1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Kirill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Maria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Mila.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Vadim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/beat--red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/billy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/black-man.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/Listening.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/Rectangle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/Vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/battery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/billy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/charging.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/man.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/marker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/param-bluetooth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/param-charger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/param-kg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/param-patent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/param-road.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/param.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/phone-footer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/plug.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/shape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/sound.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/sprite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/square.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/time.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/tv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/volume.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon/woman.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo/beats.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/order.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/products-bg5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/acco.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/jquery-3.6.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/player.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_benefit.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_benefits.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_benefits__section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_btn.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_features.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_fixed-menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_hamburger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_headline.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_hero.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_interactive-avatar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_map.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_order__section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_player-section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_products__section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_radio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_reviews__section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_team__phones.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_team__tablets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_teams__section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/media.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +115,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/node_modules/gulp-cli/index.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,7 +128,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Роман/Desktop/my-app",
+    "last_opened_file_path": "C:/Users/Роман/Desktop/py/Beats",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -76,7 +158,8 @@
       <workItem from="1675299696660" duration="259000" />
       <workItem from="1675300143961" duration="1593000" />
       <workItem from="1675301865256" duration="63267000" />
-      <workItem from="1675676013243" duration="65900000" />
+      <workItem from="1675676013243" duration="66488000" />
+      <workItem from="1676679039039" duration="8585000" />
     </task>
     <servers />
   </component>
